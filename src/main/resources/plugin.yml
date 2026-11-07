@@ -1,0 +1,24 @@
+name: AdminPanel
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  admin:
+    description: Opens the admin panel.
+    usage: /admin
+  setspawn:
+    description: Sets the server spawn location.
+    usage: /setspawn
+  spawn:
+    description: Teleports you to the server spawn.
+    usage: /spawn
+  fly:
+    description: Toggles flight for yourself.
+    usage: /fly
+  speed:
+    description: Sets walking and flying speed.
+    usage: /speed <1-10>
+permissions:
+  admin.panel:
+    description: Allows access to the admin panel and admin commands.
+    default: op
